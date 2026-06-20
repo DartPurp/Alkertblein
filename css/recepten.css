@@ -58,6 +58,7 @@ nav ul {
 .banner {
     width: 1140px;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 article {
