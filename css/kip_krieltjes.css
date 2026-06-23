@@ -10,7 +10,12 @@
 
 body {
     background-color: rgb(238, 231, 216);
-    font-family: Animo;
+    font-family: Animo, Arial, Helvetica, sans-serif;
+}
+
+nav .Alkertblein li a p{
+    font-size: 1.5em;
+    font-family: Animo, Arial, Helvetica, sans-serif;
 }
 
 .contain {
@@ -24,7 +29,7 @@ a {
 }
 
 h1 {
-    font-family: FreightText;
+    font-family: FreightText, Arial, Helvetica, sans-serif;
     font-size: 2.5em;
 }
 
@@ -61,7 +66,7 @@ nav ul {
 }
 
 #head h1 {
-    font-family: FreightText;
+    font-family: FreightText, Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     text-align: center;
 }
@@ -91,6 +96,7 @@ article {
     grid-template-columns: 1fr 1fr 1fr;
     width: 500px;
     margin: 0px auto;
+    padding-top: 10px;
     margin-top: 20px;
     clear: left;
     border: 1px solid lightgray;
@@ -107,8 +113,16 @@ header {
     width: 1140px;
     margin: 0px auto;
     margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: start;
+}
+
+.container {
+    background-color: rgb(224, 218, 204);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 #list {
@@ -121,4 +135,8 @@ footer {
     margin-top: 40px;
     padding: 100px 0px 100px 0px;
     text-align: center;
+}
+
+.special {
+    font-family: Arial, Helvetica, sans-serif;
 }
